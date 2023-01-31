@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: rgba(36, 139, 170, 0.719);
+}
+
+.imagen {
+    /* background-color: blue; */
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foto {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.botones {
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding: 6px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    color: rgb(24, 17, 17);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.datos {
+    /* background-color: chocolate; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.respuesta {
+    background-color:rgb(38, 8, 73);
+    width: 400px;
+    height: 150px;
+    color: aliceblue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 40px;
+   
+}
