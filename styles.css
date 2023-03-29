@@ -42,8 +42,8 @@ button{
 }
 .respuesta {
     background-color:rgb(38, 8, 73);
-    width: 400px;
-    height: 150px;
+    width: auto;
+    height: auto;
     color: aliceblue;
     display: flex;
     justify-content:center;
@@ -51,5 +51,6 @@ button{
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 40px;
+    padding: 50px;
    
 }
